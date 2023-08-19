@@ -62,3 +62,48 @@ banner {
 .banner-content h1 {
   color: rgba(4, 9, 11, 0.763);
 }
+.information-image {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+  height: 60%;
+}
+section {
+  margin-right: 24px;
+  width: 60%;
+}
+aside {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.section-h2 {
+  margin-bottom: 24px;
+}
+.section-last-p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+}
+.aside-img img {
+  width: 35%;
+}
+.aside-content {
+  width: 65%;
+}
+.aside-img {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+.aside-content h2 {
+  margin-top: 8px;
+}
+.aside-content p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
