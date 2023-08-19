@@ -88,12 +88,17 @@ aside {
   display: flex;
   justify-content: space-between;
   margin-left: 24px;
+  margin-bottom: 32px;
 }
 .aside-img img {
   width: 35%;
 }
 .aside-content {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aside-img {
   display: flex;
@@ -106,4 +111,46 @@ aside {
 .aside-content p {
   margin-bottom: 8px;
   margin-top: 8px;
+}
+.start-learning-article {
+  margin: 32px 72px;
+}
+
+.article-h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.course {
+  width: 300px;
+  height: 320px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+
+  flex-flow: wrap;
+  gap: 32px;
+  margin-left: 72px;
+}
+
+.course img {
+  width: 100%;
+}
+.learning-article {
+  background-color: antiquewhite;
+  padding-top: 32px;
+}
+.course h2 {
+  padding: 16px 0;
+}
+.course h3 {
+  color: dimgray;
+  padding: 8px 0;
+}
+.course p {
+  padding-bottom: 24px;
 }
