@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 999;
+  position: sticky;
+
+  margin: 26px 24px;
+  background-color: white;
+}
+.logo-name {
+  font-size: 1.2rem;
+}
+.logo {
+  display: flex;
+}
+.span {
+  color: gray;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+ul li {
+  list-style-type: none;
+}
