@@ -5,20 +5,21 @@
 }
 
 .header {
+  height: 64px;
   display: flex;
   justify-content: space-between;
-
-  z-index: 999;
-  position: sticky;
-
-  margin: 26px 24px;
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 .logo-name {
   font-size: 1.2rem;
+  margin-top: 1rem;
 }
 .logo {
   display: flex;
+  margin-left: 24px;
 }
 .span {
   color: gray;
@@ -28,6 +29,36 @@
   justify-content: space-around;
   gap: 1rem;
 }
+ul {
+  margin-top: 1rem;
+  margin-right: 24px;
+}
 ul li {
   list-style-type: none;
+}
+banner {
+  display: flex;
+  background-color: antiquewhite;
+}
+.banner-image {
+  width: 60%;
+  margin: 32px 24px;
+}
+.banner-content {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.button {
+  padding: 8px auto;
+  background-color: rgba(4, 9, 11, 0.763);
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  color: antiquewhite;
+}
+.banner-content h1 {
+  color: rgba(4, 9, 11, 0.763);
 }
